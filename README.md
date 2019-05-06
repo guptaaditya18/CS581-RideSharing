@@ -1,7 +1,7 @@
 # CS581-RideSharing
 - Uses MySQL and Python
 - Fixed Source: JFK
-- Destinations: Manhattan Boroughs
+- Destinations: Manhattan Borough
 - Walking considered for requests
 - Merges at most 2 requests such that -
     - Overall mileage/money is saved
@@ -18,13 +18,13 @@
 
                 
 ## 1. Prerequisite Setup
-##### Tools to be installed-
+##### Tools to be Installed-
 1. [MySQL/MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 2. [Python](https://www.python.org/downloads/)
 3. [Jupyter Notebook](https://jupyter.org/install)
 4. [Clone CS581-RideSharing Repository](https://help.github.com/en/articles/cloning-a-repository)
 
-##### Python Libraries to be installed-
+##### Python Libraries to be Installed-
 - [Numpy](https://scipy.org/install.html)
 - [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
 - [Geopy](https://geopy.readthedocs.io/en/stable/#installation)
@@ -32,6 +32,10 @@
 - [Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/install.html)
 - [MySQLdb](https://dev.mysql.com/doc/connector-python/en/connector-python-installation-binary.html)
 - [SQLalchemy](https://docs.sqlalchemy.org/en/13/intro.html#installation-guide)
+
+##### API Keys Required -
+- [Graphhopper API](http://graphhopper.com): Add to Main Notebook
+- (Optional) [Google Maps API](https://developers.google.com/maps/documentation/embed/get-api-key): Add to Evaluation Notebook
 
 ## 2. Database Setup
 - Use `sqlScripts/SetUp.sql` to create the `CS581GROUP6` database and the following tables-
